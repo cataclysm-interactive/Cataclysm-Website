@@ -6,10 +6,12 @@
 <body>
   <!-- Top Bar -->
   <div class="topbar">
-    <button class="topbarbuttons" onclick="window.location.href='index.html'">Home</button>
+    <div class="buttonholder">
+          <button class="topbarbuttons" onclick="window.location.href='index.html'">Home</button>
     <button class="topbarbuttons" onclick="window.location.href='blog/index.html'">Blog</button>
     <button class="topbarbuttons">Games</button>
     <button class="topbarbuttons" onclick="window.location.href='experiments/index.html'">Experiments</button>
+    </div>
   </div>
   <!-- Title -->
   <div class="titlediv">
@@ -19,16 +21,22 @@
 
   <!--Recent Blog Posts-->
   <h2 class="divider"> Recent Blog Posts</h2>
-  <div class="blogposts">
-    <h1>Title</h1>
-    <p>Description</p>
-  </div class="blogposts2">
-  <div>
-    <h1>Title</h1>
-    <p>Description</p>
-  </div>
-  <div class="blogposts3">
-    <h1>Title</h1>
-    <p>Description</p>
+  <div class="postgrid">
+    <div class="blogposts">
+      <h1>Making this<br>Website</h1>
+      <p>This is the biggest <br>website I've ever made,<br>and so, I made my first<br> blog post about it!</p>
+      <button class="blogbutton" onclick="window.location.href='blog/makingthispage.html'">Read Now!</button>
+    </div>
   </div>
 </body>
+
+
+<!--
+  Blogpost template
+    <div class="blogposts">
+      <h1>Title</h1>
+      <p>Description</p>
+      <button class="blogbutton">Read Now!</button>
+    </div>
+
+-->
