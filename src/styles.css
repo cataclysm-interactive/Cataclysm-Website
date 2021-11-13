@@ -1,25 +1,45 @@
-* {
+.titlediv{
+  padding-top: 100px;
+}
+
+.h1{
+  font-size: 45px;
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
-
-html,
-body {
-  margin: 0;
-  border: 0;
-  padding: 0;
-  background-color: #fff;
+.divider{
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
 }
-
-main {
-  margin: auto;
-  width: 50%;
-  padding: 20px;
-}
-
-main {
+h2{
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
 
-h1 {
-  font-size: 3.5em;
+
+.topbar{
+  /*background-color: #424242;*/
+  width: fit-content;
+  height: auto;
+  margin: auto;
+}
+
+.topbarbuttons{
+  background-color: #cbcbcb;
+  border: none;
+  height: 30px;
+  width: 100px;
+}
+
+.blogposts{
+  display:inline;
+}
+.blogposts2{
+  display:inline; 
+}
+.blogposts3{
+  display:inline; 
 }
